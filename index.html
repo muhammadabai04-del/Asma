@@ -1,54 +1,140 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maaf ya Asma...</title>
-    <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #0f172a;
-            color: #38bdf8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background-color: #1e293b;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
-            max-width: 500px;
-            text-align: center;
-        }
-        h1 { color: #f43f5e; }
-        p { color: #cbd5e1; line-height: 1.6; }
-        .code-block {
-            background-color: #0f172a;
-            padding: 15px;
-            border-radius: 5px;
-            text-align: left;
-            font-size: 14px;
-            color: #34d399;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maaf, Asma</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #f6f7fb, #eef3ff);
+      color: #2c2c2c;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 700px;
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 40px 30px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    h1 {
+      color: #3b5bdb;
+      margin-bottom: 12px;
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      color: #666;
+      margin-bottom: 28px;
+      font-size: 1rem;
+    }
+
+    .section {
+      background: #f8f9fc;
+      border-left: 5px solid #3b5bdb;
+      text-align: left;
+      padding: 18px 20px;
+      border-radius: 14px;
+      margin-bottom: 16px;
+    }
+
+    .section h2 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: #1f2d5c;
+    }
+
+    .section p,
+    .section li {
+      line-height: 1.7;
+      color: #333;
+      font-size: 0.98rem;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    .note {
+      margin-top: 24px;
+      padding: 16px;
+      background: #fff3cd;
+      border-radius: 12px;
+      color: #7a5b00;
+      font-weight: 600;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 12px 22px;
+      background: #3b5bdb;
+      color: white;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #2f4fc7;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Maaf, Asma</h1>
+    <div class="subtitle">Aku mau jelasin dengan singkat dan jujur.</div>
 
-<div class="card">
-    <h1>Error 404: Komunikasi Terputus</h1>
-    <div class="code-block">
-        <span style="color: #64748b;">// Log Semalam:</span><br>
-        user.activity = "Ketiduran";<br>
-        asma.status = "Nungguin & Kecewa";<br>
-        sengaja_nyuekin = <span style="color: #f43f5e;">false</span>;
+    <div class="section">
+      <h2>Kenapa aku hilang</h2>
+      <p>
+        Tadi aku ninggalin chat karena ketiduran. Itu bukan karena aku sengaja mengabaikan kamu.
+      </p>
     </div>
-    <p>
-        Asma, maafin gua ya. Gua beneran ketiduran semalam sampai gak balas-balas. Nggak ada niat sedikit pun buat nyuekin lu atau bikin lu kesel. Gua tau gua teledor banget. Maaf ya udah bikin nunggu sendirian.
-    </p>
-</div>
 
+    <div class="section">
+      <h2>Yang aku sesalkan</h2>
+      <p>
+        Aku tahu ninggalin chat tanpa kabar bisa bikin kamu nunggu dan kepikiran. Itu salahku.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Permintaan maaf</h2>
+      <p>
+        Maaf ya, Asma. Aku benar-benar minta maaf atas kejadian tadi.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Yang bakal aku perbaiki</h2>
+      <ul>
+        <li>Aku bakal lebih hati-hati biar nggak ketiduran pas lagi chat.</li>
+        <li>Kalau mulai capek, aku bakal kasih kabar dulu.</li>
+        <li>Aku akan lebih cepat balas pesan ke depannya.</li>
+      </ul>
+    </div>
+
+    <div class="note">
+      Terima kasih udah sabar dan masih mau ngerti.
+    </div>
+
+    <a class="button" href="#" onclick="alert('Maaf ya, Asma.')">Tutup</a>
+  </div>
 </body>
 </html>
